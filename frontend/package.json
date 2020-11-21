@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "parcel src/app.js",
+    "build": "parcel build src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel": "^1.12.4",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "parcel-plugin-compress": "^2.0.2",
+    "src": "^1.1.2",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
